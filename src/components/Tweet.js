@@ -20,9 +20,10 @@ class Tweet extends Component {
         if (!tweet) {
             return <p>This tweet does not exist</p>
         }
+
         const {
             name, avatar, timestamp, text, hasLiked, likes, replies, parent
-          } = tweet
+        } = tweet
 
           return(
             <div className="tweet">
